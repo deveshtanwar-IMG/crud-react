@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.back_color {
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+}
+
+.box {
+    background-color: white;
+    width: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+@media screen and (max-width: 600px){
+    .box{
+        width: 360px;
+    }
+
+    table{
+        font-size: 10px;
+    }
+}
